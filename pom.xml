@@ -13,4 +13,19 @@
         <maven.compiler.target>21</maven.compiler.target>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.junit.platform</groupId>
+            <artifactId>junit-platform-console-standalone</artifactId>
+            <version>1.11.0-M2</version>
+        </dependency>
+    </dependencies>
+
+    <distributionManagement>
+        <repository>
+          <id>github</id>
+          <name>GitHub Packages</name>
+          <url>https://maven.pkg.github.com/RaihanSulthon/Deploy_UAS_MKPL</url>
+        </repository>
+      </distributionManagement>
 </project>
